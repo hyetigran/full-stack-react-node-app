@@ -41,7 +41,6 @@ class SurveyForm extends React.Component {
 function validate(values) {
   const errors = {};
   errors.recipients = validateEmails(values.recipients || "");
-  console.log(values);
   _.each(formFields, ({ name }) => {
     if (!values[name]) {
       errors[name] = `You must provide a value`;
