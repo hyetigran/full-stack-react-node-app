@@ -33,7 +33,7 @@
     "stripe": "7.5.0"
   },
   "devDependencies": {
-    "eslint": "6.0.1",
+    "eslint": "5.16.0",
     "eslint-plugin-react": "7.14.2",
     "nodemon": "1.19.1"
   }
